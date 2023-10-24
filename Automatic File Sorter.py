@@ -25,7 +25,7 @@ file_names = os.listdir(path)
 
 
 folder_name = ("EXCELs", "TXTs","SQLs","PYTHONs","PDFs","ZIPs","PICs","DOCXs","JUPITERNBs")
-# This is just a variable
+# This is just a list
 
 
 for loop in range(len(folder_name)):
