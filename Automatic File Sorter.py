@@ -1,3 +1,8 @@
+# Big thanks to @AlexTheAnalyst for his tutorial. 
+# I have modified the code a bit and it works as it should.
+# https://www.youtube.com/watch?v=gs0FNQR0njI&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=53
+
+
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -24,7 +29,7 @@ file_names = os.listdir(path)
 # Lists everthing in the path
 
 
-folder_name = ("EXCELs", "TXTs","SQLs","PYTHONs","PDFs","ZIPs","PICs","DOCXs","JUPITERNBs")
+folder_name = ["EXCELs", "TXTs","SQLs","PYTHONs","PDFs","ZIPs","PICs","DOCXs","JUPITERNBs"]
 # This is just a list
 
 
@@ -32,8 +37,10 @@ for loop in range(len(folder_name)):
     if not os.path.exists(path + folder_name[loop]):
         print(path + folder_name[loop])
         os.makedirs(path + folder_name[loop])
-# This for loop chcecks if the folders in the variable are exist or not
-# If they are it loop throuh, if not they create them
+# This loop checks if folders from the list [folder_name] exist in the directory
+# If they are not it creates them. 
+# Line 36 using the len functions we don't have to specify the actual range.
+# In this case if I need another folder I just add the folder name to the list, run the for loop and it creates it if it does not exist already
 
 
 
@@ -96,6 +103,11 @@ for file in file_names:
 
 # In[ ]:
 
-
-
+## My plan was
+# This has been real fun and the code is not even mine, I just modified it. 
+# Nevertheless what I was trying to create is more automatic way to sort the files based on their file extentions but without specifing them.
+# So it would get the list of file, get their file type based on their extensions, based on their extention would create folders like "csv files"
+# and the last loop would sort them into their folders. 
+# In this way if there is a file with the extension other than what we defined it could create a folder automatically for it 
+# and move the file into it. 
 
