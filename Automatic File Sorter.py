@@ -96,6 +96,15 @@ for file in file_names:
     elif ".ipynb" in file and not os.path.exists(path + "JUPITERNBs/"+ file):
         print("File: " + file + " Moved into: "+ path + "JUPITERNBs/"+ file)
         shutil.move(path + file, path + "JUPITERNBs/"+ file)
+
+
+    elif ".json" in file and not os.path.exists(path + "JSONs/"+ file):
+        print("File: " + file + " Moved into: "+ path + "JSONs/"+ file)
+        shutil.move(path + file, path + "JSONs/"+ file)
+        
+    elif ".pbix" in file and not os.path.exists(path + "PBIs/"+ file):
+        print("File: " + file + " Moved into: "+ path + "PBIs/"+ file)
+        shutil.move(path + file, path + "PBIs/"+ file)
         
 # This for loop is placing the files into created folders according to their extension specified in the if/elif statements.
 # Also it is printing out the file name that is being moved and the directory where it is moved if file is being moved.
