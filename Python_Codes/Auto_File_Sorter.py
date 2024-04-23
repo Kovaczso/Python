@@ -1,14 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Automatic File Sorter 
+# # This is an Automatic File Sorter that will sort your files into subfolder in a specified folder 
 
 
 import os, shutil
 # Python has a built-in os module with methods for interacting with the operating system
 # The Shutil module allows you to do high-level operations on a file, such as copy, create, and remote operations
 
-path = r"C:\Users\zkovac01\Desktop\Python File Sorting"
+path = r"C:\Users\zsolt\Desktop\Python File Sorting"
 # The "r" prefix designates a "raw" string literal, 
 # which means that backslashes (\) are treated as literal characters and not as escape characters.
 
