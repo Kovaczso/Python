@@ -4,9 +4,9 @@
 
 ## Steps to take:
 
-- **Creating code that keeps history of the tables**: Click here to see the code!
-- **Choosing the latest file from the history**: Click here to see the code!
-- **Creating dataset from the latest file**: Click here to see the code!
+- **Creating code that keeps history of the tables**: [Click here to see the code!](https://github.com/Kovaczso/Python/blob/main/Pyspark/Keeping%20history%20of%20Input%20files/History.py)
+- **Choosing the latest file from the history**: [Click here to see the code!](https://github.com/Kovaczso/Python/blob/main/Pyspark/Keeping%20history%20of%20Input%20files/Latest_file.py)
+- **Creating dataset from the latest file**: [Click here to see the code!](https://github.com/Kovaczso/Python/blob/main/Pyspark/Keeping%20history%20of%20Input%20files/Final_dataset.py)
 
 #### **Note:** Codes are written and used on Palantir-Foundry
 
