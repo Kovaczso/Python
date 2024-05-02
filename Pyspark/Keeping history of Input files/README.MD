@@ -1,4 +1,4 @@
-# historicizing  files transfered by SFTP
+# Historicizing  files transfered by SFTP
 ## Task: 
 ##### Create dataset from the incoming files from a SFTP server. A file will be ingested daily at 4am UTC in csv format. File overwrites daily so we also need to keep history of the files in case we need to reference back to them.
 
