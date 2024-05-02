@@ -11,3 +11,8 @@
 #### **Note:** Codes are written and used on Palantir-Foundry
 
 # ![diagram](diagram.jpg)
+
+- **Schedule the ingest**: We do know that the file is downloaded to the SFTP at 4am UTC so create a schedule for ingest in the lineage at 5am UTC
+- **Schedule the build**: Set the ingest schedules RID as trigger on the History build and Historys RID on the Latest file and so on. 
+
+### This will create a schedule that starts everyday at 5am UTC. Once the file is ingested it will trigger the chain which ends with Final Dataset.
