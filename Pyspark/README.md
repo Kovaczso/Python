@@ -5,4 +5,4 @@
 
 # ["Unpivoting" loads of records with Pyspark](https://github.com/Kovaczso/Python/blob/main/Pyspark/Codes/Stacking.py)
 
-#### As I am familiar with SQL I try to create as much tables with SQL as I can. But there are some instances where SQL is simply not enough.
+#### As I am more familiar with SQL than Python I try to use it as much as I can. But there are some instances where SQL is simply not enough and the logic would be too complicated. 
